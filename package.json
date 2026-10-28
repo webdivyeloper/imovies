@@ -1,0 +1,25 @@
+{
+  "name": "imovies-app",
+  "version": "1.0.0",
+  "description": "IMovies - Movie ticket booking made simple (MERN Full Stack)",
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "server": "npm run dev --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "dev": "node start.js",
+    "start": "node start.js",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "movie-ticket-booking",
+    "react",
+    "express",
+    "mongodb",
+    "node"
+  ],
+  "author": "IMovies Team",
+  "license": "MIT"
+}
